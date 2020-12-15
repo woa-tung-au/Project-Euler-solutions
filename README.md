@@ -1,2 +1,3 @@
-# Project-Euler-solutions
-Yet another repository for Project Euler solutions.
+# Project Euler Solutions
+
+* Yet another repository for Project Euler solutions with Haskell. *
