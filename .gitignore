@@ -2,6 +2,7 @@
 #  Haskell
 ###########
 
+src/test.hs
 dist
 dist-*
 cabal-dev
