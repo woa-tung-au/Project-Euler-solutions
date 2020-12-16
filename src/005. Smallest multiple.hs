@@ -4,5 +4,5 @@ module Main where
 
     main = do
         putStrLn $ show result where
-            result = head [ x | x <- [1..], divisible x ] where
-                divisible n = foldl --TODO
+            result = take 1 [ x | x <- [1..], divisible x ] where
+                divisible n = foldl (&&) True [ mod n x == 0 | x <- [1 .. 20] ]
